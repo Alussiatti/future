@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/AgusUno.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 35 px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin: 0px 40px;
+}
+
+nav {
+    padding: 20px 80px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.contenedorPadre {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+}
+
+.contenedorHijo {
+    width: 50%;
+}
+
+.alineacion {
+    text-align: center;
+}
+
+.alineacion .titulo {
+    margin-bottom: 15px;
+}
+
+.alineacion p {
+    padding: 0px 150px;
+}
+
+.button {
+    margin-top: 15px;
+}
+
+.agusDos {
+    max-width: 100%;
+    height: auto;
+}
+
+.marcelaUno {
+    max-width: 100%;
+    height: auto;
+}
+
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+.cuerpoTexto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.button {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contenedorPadreAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../img/Fondoformulario.png');
+    background-size: cover;
+    /* La imagen se ajustará para cubrir todo el contenedor */
+    background-position: center;
+    /* La imagen se centrará en el contenedor */
+}
+
+.fondoAbout {
+    max-width: 800px;
+    text-align: center;
+}
+
+.About {
+    color: white;
+
+}
+
+.servicios {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.futureFooter {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.directionFooter {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+.footer {
+    text-align: center;
+    margin: 80px;
+}
+
+
+.leaUnoo,
+.eventoFuturee,
+.majuUno {
+    width: 100%;
+}
+
+.imagenUno,
+.felipe {
+    width: 43%;
+    height: auto;
+
+}
+
+.form {
+    text-align: center;
+}
+
+.logo {
+    margin: 20px 80px;
+    cursor: pointer;
+}
+
+form {
+    margin: 40px 74px;
+}
+
+label {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+.campos {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    border: 6px, solid;
+    border-radius: 4px;
+    margin-bottom: 9px;
+    width: 35%;
+}
+
+.botonFormulario {
+    width: 8%;
+    cursor: pointer;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+iframe {
+    margin: 80px 74px;
+}
+
+.tituloprincipal {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* Hair salon */
+
+.contenedorPadreHair {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorHijoHairUno {
+    flex: 40%;
+}
+
+.imagenUno {
+    width: 100%;
+    /* La imagen ocupará todo el ancho del contenedor de la imagen */
+    height: auto;
+    /* Para mantener la proporción de la imagen */
+}
+
+.contenedorHijoHairDos {
+    flex: 60%;
+    text-align: center;
+}
+
+.contenedorPadreServicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../img/Fondoformulario.png');
+    background-size: cover;
+    /* La imagen se ajustará para cubrir todo el contenedor */
+    background-position: center;
+    /* La imagen se centrará en el contenedor */
+}
+
+.contenedorHijoServicios .titulo {
+    text-align: center;
+    color: white;
+    margin-bottom: 68px;
+}
+
+.contenedorHijoServicios .servicios {
+    color: white;
+}
+
+.contenedorImg {
+    /* Asegúrate de que el contenedor tenga un tamaño adecuado */
+    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+    height: 100%; /* La imagen ocupará todo el alto del contenedor */
+    /* Otras propiedades para ajustar el tamaño del contenedor si es necesario */
+  }
+  
+  /* Estilos para la imagen */
+  .img {
+    width: 100%; /* La imagen ocupará todo el ancho del contenedorImg */
+    height: 100%; /* La imagen ocupará todo el alto del contenedorImg */
+    object-fit: cover; /* La imagen se ajustará para cubrir todo el espacio */
+  }
