@@ -13,19 +13,36 @@
 <body>
 
     <header>
-        <nav>
-            <a href="index.html">
-                <img class="logo" src="img/logo future.png" alt="Logo">
-            </a>
-            <ul>
-                <li><a href="index.html"> HOME </a></li>
-                <li><a href="paginas/hairsalon.html"> HAIR SALON </a></li>
-                <li><a href="paginas/academy.html"> ACADEMY </a></li>
-                <li><a href="paginas/about.html"> ABOUT </a></li>
-                <li><a href="paginas/contact.html"> CONTACT </a></li>
-            </ul>
-        </nav>
-
+        <div class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img class="logo" src="../img/logo future.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse" id="navbarNav">
+                   <ul class="navbar-nav  styleFonts">
+                        <li class="nav-item">
+                            <a class="nav-link text-reset" href="index.html">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-reset" href="paginas/hairsalon.html">hair salon</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-reset" href="paginas/academy.html">hair academy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-reset" href="paginas/about.html">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-reset" href="paginas/contact.html">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <main>
@@ -45,7 +62,9 @@
                     quisquam
                     soluta, commodi impedit!</p>
 
-                <button class="button">Ver más</button>
+                <button class="button">
+                   <span> Ver más </span>
+                </button>
             </div>
         </section>
 
@@ -68,13 +87,13 @@
 
         <section class="contenedorPadreAbout">
             <div class="fondoAbout .alineacion">
-                <h2 class="titulo About"> ABOUT </h2>
+                <h2 class="titulo about"> ABOUT </h2>
 
-                <p class="cuerpoTexto About"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id architecto placeat,
+                <p class="cuerpoTexto about"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id architecto placeat,
                     tenetur consequatur fugiat voluptate quia voluptatibus! Fugiat iure cupiditate animi ullam, natus
                     dicta itaque dolorum omnis, quo accusamus nesciunt.</p>
 
-                <button class="button">Conocenos</button>
+                <button class="button fondoNegro">Conocenos</button>
             </div>
         </section>
 

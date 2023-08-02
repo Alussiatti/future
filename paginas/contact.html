@@ -5,54 +5,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Future </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="shortcut icon" href="Img/favicon.png" type="image/x-icon">
 </head>
 
 <body>
     <header>
-        <a href="../index.html">
-            <img class="logo" src="../img/logo future.png" alt="Logo">
-            <nav>
-                <ul>
-                    <li><a href="../index.html"> HOME </a></li>
-                    <li><a href="hairsalon.html"> HAIR SALON </a></li>
-                    <li><a href="academy.html"> ACADEMY </a></li>
-                    <li><a href="about.html"> ABOUT </a></li>
-                    <li><a href="contact.html"> CONTACT </a></li>
-                </ul>
-            </nav>
+        <div class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img class="logo" src="../img/logo future.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav styleFonts">
+                        <li class="nav-item">
+                            <a class="nav-link text-reset" href="../index.html">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-reset" href="hairsalon.html">hair salon</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-reset" href="academy.html">hair academy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-reset" href="about.html">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-reset" href="contact.html">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
-    <div>
-        <h1 class="tituloprincipal"> Contact </h1>
 
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13087.43348030113!2d-54.9561887!3d-34.9100036!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95751b3757b056f1%3A0x4ccab679af321f3f!2sFuture%20hair%20salon%20%26%20academy!5e0!3m2!1ses-419!2suy!4v1688404562400!5m2!1ses-419!2suy"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="contenedorPadre">
+        <div class="contenedorHijo alineacion">
+            <h2 class="titulo"> FUTURE </h2>
 
-        <main>
+            <p class="cuerpoTexto">Somos la evolución
+                hacia el futuro</p>
+            <h3> Visitanos </h3>
+
+        </div>
+        <div class="contenedorHijo">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13087.43348030113!2d-54.9561887!3d-34.9100036!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95751b3757b056f1%3A0x4ccab679af321f3f!2sFuture%20hair%20salon%20%26%20academy!5e0!3m2!1ses-419!2suy!4v1688404562400!5m2!1ses-419!2suy"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="contenedorPadreAbout">
+        <div class="fondoAbout alineacion">
             <form>
 
                 <label for="nombre"></label>
                 <input class="campos" type="text" id="nombre" placeholder="Nombre">
-
+    
                 <label for="telefono"></label>
                 <input class="campos" type="text" id="telefono" placeholder="Teléfono">
-
+    
                 <label for="email"></label>
                 <input class="campos" type="email" id="email" placeholder="E-mail">
-
+    
                 <label for="mensaje"></label>
                 <textarea class="campos" name="" id="mensaje" cols="30" rows="10"
                     placeholder="Ingrese su mensaje"></textarea>
-
+    
                 <input class="botonFormulario" type="submit">
-
+    
             </form>
-        </main>
+        </div>
     </div>
+
+
+    <main>
+  
+    </main>
 
     <div>
         <footer class="footer">

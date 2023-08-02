@@ -5,52 +5,67 @@
     padding: 0;
 }
 
-header {
-    width: 100%;
-    height: 100vh;
-    background-image: url(../img/AgusUno.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: black;
+    font-size: 2rem;
 }
 
-
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    font-size: 35 px;
+.cuerpoTexto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1rem;
 }
 
 li {
-    list-style: none;
-    display: inline;
     margin: 0px 40px;
 }
 
 nav {
-    padding: 20px 80px;
-    text-align: right;
+    padding: 1rem 6rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    text-transform: uppercase;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
-    top: 0;
+}
+
+.styleFonts {
+    font-size: 1rem;
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.logo {
+    padding: 1rem 6rem;
+    cursor: pointer;
 }
 
 .contenedorPadre {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 900px;
+    height: auto;
     overflow: hidden;
 }
 
 .contenedorHijo {
     width: 50%;
+}
+
+.agusDos {
+    max-width: 100%;
+    height: auto;
+}
+
+.marcelaUno {
+    max-width: 100%;
+    height: auto;
 }
 
 .alineacion {
@@ -67,32 +82,12 @@ nav {
 
 .button {
     margin-top: 15px;
-}
+    border-radius: 5px;
+    border-color: black;
+    background-color: white;
+    font-size: 1rem;
 
-.agusDos {
-    max-width: 100%;
-    height: auto;
-}
-
-.marcelaUno {
-    max-width: 100%;
-    height: auto;
-}
-
-.titulo {
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    color: black;
-}
-
-
-.cuerpoTexto {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    line-height: 1.5;
-}
-
-.button {
+    padding: 10px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -111,14 +106,20 @@ nav {
     /* La imagen se centrará en el contenedor */
 }
 
+
 .fondoAbout {
     max-width: 800px;
     text-align: center;
 }
 
-.About {
+.about {
     color: white;
+}
 
+.fondoNegro {
+    border-color: white;
+    background-color: black;
+    color: white;
 }
 
 .servicios {
@@ -131,11 +132,13 @@ nav {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
+    font-size: 2rem;
 }
 
 .directionFooter {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    font-size: 1rem;
 }
 
 
@@ -160,16 +163,9 @@ nav {
 
 .form {
     text-align: center;
-}
-
-.logo {
-    margin: 20px 80px;
-    cursor: pointer;
-}
-
-form {
     margin: 40px 74px;
 }
+
 
 label {
     display: block;
@@ -178,25 +174,33 @@ label {
     margin-bottom: 9px;
 }
 
-.campos {
+.email {
     display: block;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    padding: 10px;
-    border: 6px, solid;
-    border-radius: 4px;
-    margin-bottom: 9px;
-    width: 35%;
+    color: white;
+    display: flex;
+    align-self: self-start;
 }
 
 .botonFormulario {
-    width: 8%;
     cursor: pointer;
-    display: block;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding: 10px;
     border-radius: 4px;
+    background-color: black;
+    border-color: white;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1rem;
 }
 
 iframe {
@@ -224,9 +228,7 @@ iframe {
 
 .imagenUno {
     width: 100%;
-    /* La imagen ocupará todo el ancho del contenedor de la imagen */
     height: auto;
-    /* Para mantener la proporción de la imagen */
 }
 
 .contenedorHijoHairDos {
@@ -234,16 +236,24 @@ iframe {
     text-align: center;
 }
 
+ /* Al ver en el live server la foto, le queda un espacio en blanco abajo que no pude solucionar */
+
+
 .contenedorPadreServicios {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url('../img/Fondoformulario.png');
     background-size: cover;
-    /* La imagen se ajustará para cubrir todo el contenedor */
     background-position: center;
-    /* La imagen se centrará en el contenedor */
+}
+
+ /* Tutor, mi idea es que la lista en pantalla grande se vea en dos filas, pero no se me aplican los cambios que pongo en el css, tampoco me queda centrado con el contenedor :(((( espero me lo puedan corregir*/
+
+ul {
+    list-style: none;
 }
 
 .contenedorHijoServicios .titulo {
@@ -254,18 +264,111 @@ iframe {
 
 .contenedorHijoServicios .servicios {
     color: white;
+    text-align: center;
 }
 
 .contenedorImg {
     /* Asegúrate de que el contenedor tenga un tamaño adecuado */
-    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
-    height: 100%; /* La imagen ocupará todo el alto del contenedor */
+    width: 100%;
+    /* La imagen ocupará todo el ancho del contenedor */
+    height: 100vh;
+    /* La imagen ocupará todo el alto del contenedor */
     /* Otras propiedades para ajustar el tamaño del contenedor si es necesario */
-  }
-  
-  /* Estilos para la imagen */
-  .img {
-    width: 100%; /* La imagen ocupará todo el ancho del contenedorImg */
-    height: 100%; /* La imagen ocupará todo el alto del contenedorImg */
-    object-fit: cover; /* La imagen se ajustará para cubrir todo el espacio */
-  }
+}
+
+/* Estilos para la imagen */
+.img {
+    width: 100%;
+    /* La imagen ocupará todo el ancho del contenedorImg */
+    height: 100%;
+    /* La imagen ocupará todo el alto del contenedorImg */
+    object-fit: cover;
+    /* La imagen se ajustará para cubrir todo el espacio */
+
+}
+
+
+/* Estilos para dispositivos celulares con ancho de pantalla de hasta 320px */
+@media only screen and (max-width: 320px) {
+
+    .logo {
+        padding: 0rem;
+        cursor: pointer;
+    }
+
+
+    .contenedorPadreHair {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .titulo {
+        font-size: 1.5rem;
+        /* Reducir el tamaño de fuente del título */
+    }
+
+    .cuerpoTexto {
+        font-size: 0.7rem;
+        /* Reducir el tamaño de fuente del cuerpo de texto */
+    }
+
+    .contenedorHijoHairUno,
+    .contenedorHijoHairDos {
+        flex: 100%;
+    }
+
+    .contenedorHijoHairDos {
+        margin: 50px 15px;
+    }
+
+    .contenedorPadreAbout {
+        height: 60vh;
+    }
+
+    .submitBoton {
+        margin-top: 2rem;
+        display: flex;
+        justify-self: end;
+    }
+
+    .emailRes {
+        font-size: 0, 3rem;
+        text-align: start;
+    }
+
+    .contenedorImg {
+        height: 40vh;
+    }
+
+    .directionFooter {
+        font-size: 0.7rem;
+        /* Reducir el tamaño de fuente del título */
+    }
+
+    .futureFooter {
+        font-size: 1rem;
+        /* Reducir el tamaño de fuente del título */
+    }
+
+    .contenedorPadreServicios {
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .servicios {
+        text-align: center;
+        flex-direction: column;
+        /* Centrar el contenido horizontalmente */
+        align-items: center;
+    }
+
+}
+
+/* Estilos para pantallas de tamaño de escritorio con un ancho de pantalla de hasta 1200px */
+@media only screen and (max-width: 1200px) {
+    .alineacion p {
+        padding: 0 50px;
+    }
+}
