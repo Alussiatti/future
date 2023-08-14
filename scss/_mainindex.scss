@@ -1,0 +1,39 @@
+main {
+	.contenedorPadre {
+		display: flex;
+		align-items: center;
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		.contenedorHijo {
+			width: 50%;
+			.agusDos {
+				max-width: 100%;
+				height: auto;
+			}
+			.marcelaUno {
+				max-width: 100%;
+				height: auto;
+			}
+			.alineacion {
+				text-align: center;
+			}
+		}
+	}
+	.contenedorPadreAbout {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		background-image: url('../img/Fondoformulario.png');
+		background-size: cover;
+		background-position: center;
+		.fondoAbout {
+			max-width: 800px;
+			text-align: center;
+			.about {
+				color: white;
+			}
+		}
+	}
+}

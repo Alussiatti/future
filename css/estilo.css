@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.titulo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: black;
+  font-size: 2rem;
+}
+
+.cuerpoTexto {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.alineacion {
+  text-align: center;
+}
+
+.alineacion .titulo {
+  margin-bottom: 15px;
+}
+
+.alineacion p {
+  padding: 0px 150px;
+}
+
+.button {
+  margin-top: 15px;
+  border-radius: 5px;
+  border-color: black;
+  background-color: white;
+  font-size: 1rem;
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.contenedorImg {
+  width: 100%;
+  height: 100vh;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.botonFormulario {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: black;
+  border-color: white;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.campos {
+  display: block;
+  width: 25rem;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.email {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  align-self: self-start;
+}
+
+label {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-bottom: 9px;
+}
+
+.contenedorPadreAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../img/Fondoformulario.png");
+  background-size: cover;
+  background-position: center;
+}
+.contenedorPadreAbout .fondoAbout {
+  max-width: 800px;
+  text-align: center;
+}
+.contenedorPadreAbout .fondoAbout .about {
+  color: white;
+}
+.contenedorPadreAbout .fondoAbout .alineacion {
+  align-items: center;
+}
+
+header li {
+  margin: 0px 40px;
+}
+header nav {
+  padding: 1rem 6rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .styleFonts {
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+header .logo {
+  padding: 1rem 6rem;
+  cursor: pointer;
+}
+
+main .contenedorPadre {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+main .contenedorPadre .contenedorHijo {
+  width: 50%;
+}
+main .contenedorPadre .contenedorHijo .agusDos {
+  max-width: 100%;
+  height: auto;
+}
+main .contenedorPadre .contenedorHijo .marcelaUno {
+  max-width: 100%;
+  height: auto;
+}
+main .contenedorPadre .contenedorHijo .alineacion {
+  text-align: center;
+}
+main .contenedorPadreAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../img/Fondoformulario.png");
+  background-size: cover;
+  background-position: center;
+}
+main .contenedorPadreAbout .fondoAbout {
+  max-width: 800px;
+  text-align: center;
+}
+main .contenedorPadreAbout .fondoAbout .about {
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  margin: 80px;
+}
+.footer .futureFooter {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+}
+.footer .directionFooter {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.contenedorPadreHair {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedorPadreHair .contenedorHijoHairUno {
+  flex: 40%;
+}
+.contenedorPadreHair .contenedorHijoHairUno .imagenUno {
+  width: 100%;
+  height: auto;
+}
+.contenedorPadreHair .contenedorHijoHairDos {
+  flex: 60%;
+  text-align: center;
+}
+
+.contenedorPadreServicios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("../img/Fondoformulario.png");
+  background-size: cover;
+  background-position: center;
+}
+.contenedorPadreServicios .contenedorHijoServicios .titulo {
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+}
+.contenedorPadreServicios .contenedorHijoServicios .servicios {
+  color: white;
+  text-align: center;
+}
+
+.contenedorPadreAbout .fondoAbout .alineacion form {
+  text-align: center;
+  margin: 40px 74px;
+}
+.contenedorPadreAbout .fondoAbout .alineacion form label {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-bottom: 9px;
+}
+.contenedorPadreAbout .fondoAbout .alineacion form label .email {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  align-self: self-start;
+}
+.contenedorPadreAbout .fondoAbout .alineacion form .botonFormulario {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: black;
+  border-color: white;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  color: white;
+}
+.contenedorPadreAbout .fondoAbout .alineacion form .campos {
+  display: block;
+  width: auto;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,20 @@
+.contenedorPadreServicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../img/Fondoformulario.png');
+    background-size: cover;
+    background-position: center;
+    .contenedorHijoServicios {
+        .titulo {
+            text-align: center;
+            color: white;
+            margin-bottom: 2rem;
+        }
+        .servicios {
+            color: white;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.contenedorPadreHair {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.contenedorHijoHairUno {
+		flex: 40%;
+		.imagenUno {
+			width: 100%;
+			height: auto;
+		}
+	}
+	.contenedorHijoHairDos {
+		flex: 60%;
+		text-align: center;
+	}
+}
