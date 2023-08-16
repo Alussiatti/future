@@ -1,0 +1,8 @@
+@mixin titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: black;
+    font-size: 2rem;
+    animation: tit 1.5s ease-in;
+}

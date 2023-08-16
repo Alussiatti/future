@@ -1,0 +1,137 @@
+@media only screen and (max-width: 320px) {
+
+	header {
+		.logo {
+			cursor: pointer;
+            padding: 1rem 1rem;
+		}
+    }
+    main {
+		.contenedorPadre {
+			flex-direction: column;
+			width: 100%;
+			.alineacion {
+				text-align: center;
+			}
+			.contenedorHijo {
+				flex: 100%;
+				width: 100%;
+				margin-bottom: 3rem;
+				.titulo {
+					font-size: 1.5rem;
+				}
+				.cuerpoTexto {
+					font-size: 0.7rem;
+				}
+			}
+		}
+	}
+}
+
+/* No tuve tiemo de pasar el código a sass :(*/
+
+.contenedorHijoHairUno,
+.contenedorHijoHairDos {
+    flex: 100%;
+}
+
+.contenedorHijoHairDos {
+    margin: 50px 15px;
+}
+
+.contenedorPadreAbout {
+    height: 60vh;
+}
+
+.submitBoton {
+    margin-top: 2rem;
+    display: flex;
+    justify-self: end;
+}
+
+.emailRes {
+    font-size: 0.3rem;
+    text-align: start;
+}
+
+.contenedorImg {
+    height: 40vh;
+}
+
+.directionFooter {
+    font-size: 0.7rem;
+    /* Reducir el tamaño de fuente del título */
+}
+
+.futureFooter {
+    font-size: 1rem;
+    /* Reducir el tamaño de fuente del título */
+}
+
+.contenedorPadreServicios {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.servicios {
+    text-align: center;
+    flex-direction: column;
+    /* Centrar el contenido horizontalmente */
+    align-items: center;
+}
+
+.contenedorPadre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem;
+}
+
+.contenedorHijo {
+    padding-top: 3rem;
+}
+
+.mapaContainer {
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+}
+
+.contenedorPadreAbout {
+    height: 450px;
+}
+
+.titulo.about {
+    font-size: 1,5rem;
+    /* Ajusta el tamaño de fuente del título */
+}
+
+.campos {
+    width: 100%;
+    /* Ajusta el ancho de los campos de entrada */
+}
+
+.textarea {
+    height: 85px;
+    /* Ajusta la altura del campo de texto */
+}
+
+.botonFormulario {
+    font-size: 0.8rem;
+
+}
+
+.button {
+    font-size: 0.8rem;
+}
+
+
+
+
