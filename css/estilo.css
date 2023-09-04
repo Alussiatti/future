@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap");
 * {
   margin: 0;
@@ -43,7 +42,6 @@
 }
 
 .button {
-  margin-top: 15px;
   border-radius: 5px;
   border-color: black;
   background-color: white;
@@ -273,118 +271,111 @@ main .contenedorPadreAbout .fondoAbout .about {
   }
   main .contenedorPadre .alineacion {
     text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
   }
   main .contenedorPadre .contenedorHijo {
     flex: 100%;
     width: 100%;
-    margin-bottom: 3rem;
   }
-  main .contenedorPadre .contenedorHijo .titulo {
+  main .contenedorPadreAbout {
+    height: auto;
+  }
+  main .contenedorPadreAbout .fondoAbout {
+    max-width: 800px;
+    text-align: center;
+  }
+  main .contenedorPadreAbout .fondoAbout .about {
+    color: white;
+  }
+  main .contenedorPadreAbout .alineacion {
+    margin: 3rem 2rem;
+  }
+  .alineacion p {
+    padding: 1rem 2rem;
+    margin: 0rem;
+  }
+  .alineacion .titulo {
+    margin: 0rem 2rem;
+  }
+  .button {
+    border-radius: 3px;
+    font-size: 0.7rem;
+    padding: 10px;
+  }
+  .titulo {
     font-size: 1.5rem;
   }
-  main .contenedorPadre .contenedorHijo .cuerpoTexto {
+  .cuerpoTexto {
+    font-size: 0.8rem;
+  }
+  .footer {
+    text-align: center;
+    margin: 80px;
+  }
+  .footer .futureFooter {
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+  }
+  .footer .directionFooter {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .footer {
+    height: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer .futureFooter {
+    font-size: 1rem;
+  }
+  .footer .directionFooter {
     font-size: 0.7rem;
   }
-}
-/* No tuve tiemo de pasar el código a sass :(*/
-.contenedorHijoHairUno,
-.contenedorHijoHairDos {
-  flex: 100%;
-}
-
-.contenedorHijoHairDos {
-  margin: 50px 15px;
-}
-
-.contenedorPadreAbout {
-  height: 60vh;
-}
-
-.submitBoton {
-  margin-top: 2rem;
-  display: flex;
-  justify-self: end;
-}
-
-.emailRes {
-  font-size: 0.3rem;
-  text-align: start;
-}
-
-.contenedorImg {
-  height: 40vh;
-}
-
-.directionFooter {
-  font-size: 0.7rem;
-  /* Reducir el tamaño de fuente del título */
-}
-
-.futureFooter {
-  font-size: 1rem;
-  /* Reducir el tamaño de fuente del título */
-}
-
-.contenedorPadreServicios {
-  height: 70vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.servicios {
-  text-align: center;
-  flex-direction: column;
-  /* Centrar el contenido horizontalmente */
-  align-items: center;
-}
-
-.contenedorPadre {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0rem;
-}
-
-.contenedorHijo {
-  padding-top: 3rem;
-}
-
-.mapaContainer {
-  display: flex;
-  justify-content: center;
-  height: auto;
-}
-
-.map {
-  width: 100%;
-  height: 100%;
-}
-
-.contenedorPadreAbout {
-  height: 450px;
-}
-
-.titulo.about {
-  font-size: 1, 5rem;
-  /* Ajusta el tamaño de fuente del título */
-}
-
-.campos {
-  width: 100%;
-  /* Ajusta el ancho de los campos de entrada */
-}
-
-.textarea {
-  height: 85px;
-  /* Ajusta la altura del campo de texto */
-}
-
-.botonFormulario {
-  font-size: 0.8rem;
-}
-
-.button {
-  font-size: 0.8rem;
+  .contenedorPadreHair {
+    flex-direction: column;
+    height: auto;
+  }
+  .contenedorPadreHair .alineacion {
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  .contenedorPadreHair .contenedorHijoHairUno {
+    flex: 100%;
+  }
+  .contenedorPadreHair .contenedorHijoHairUno .imagenUno {
+    max-width: 100%;
+    height: auto;
+  }
+  .contenedorPadreHair .contenedorHijoHairDos {
+    flex: 100%;
+  }
+  .contenedorPadreServicios {
+    min-height: 60vh;
+  }
+  .contenedorPadreServicios .contenedorHijoServicios .titulo {
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  .contenedorPadreServicios .contenedorHijoServicios .servicios {
+    color: white;
+    text-align: center;
+  }
+  .contenedorImg {
+    height: auto;
+  }
+  .contenedorPadreAbout {
+    height: 60vh;
+  }
+  .contenedorPadreAbout .fondoAbout form .campos {
+    width: 15rem;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

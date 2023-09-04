@@ -1,137 +1,163 @@
 @media only screen and (max-width: 320px) {
 
-	header {
-		.logo {
-			cursor: pointer;
+    header {
+        .logo {
+            cursor: pointer;
             padding: 1rem 1rem;
-		}
+        }
     }
+
     main {
-		.contenedorPadre {
-			flex-direction: column;
-			width: 100%;
-			.alineacion {
-				text-align: center;
-			}
-			.contenedorHijo {
-				flex: 100%;
-				width: 100%;
-				margin-bottom: 3rem;
-				.titulo {
-					font-size: 1.5rem;
-				}
-				.cuerpoTexto {
-					font-size: 0.7rem;
-				}
-			}
-		}
-	}
+        .contenedorPadre {
+            flex-direction: column;
+            width: 100%;
+
+            .alineacion {
+                text-align: center;
+                margin-bottom: 3rem;
+                margin-top: 3rem;
+            }
+
+            .contenedorHijo {
+                flex: 100%;
+                width: 100%;
+            }
+
+        }
+
+        .contenedorPadreAbout {
+            height: auto;
+
+            .fondoAbout {
+                max-width: 800px;
+                text-align: center;
+
+                .about {
+                    color: white;
+                }
+            }
+
+            .alineacion {
+                margin: 3rem 2rem;
+            }
+        }
+    }
+
+
+    .alineacion p {
+        padding: 1rem 2rem;
+        margin: 0rem;
+    }
+
+    .alineacion .titulo {
+        margin: 0rem 2rem;
+    }
+
+    .button {
+        border-radius: 3px;
+        font-size: 0.7rem;
+        padding: 10px;
+    }
+
+    .titulo {
+        font-size: 1.5rem;
+    }
+
+    .cuerpoTexto {
+        font-size: 0.8rem;
+    }
+
+
+
+    .footer {
+        text-align: center;
+        margin: 80px;
+
+        .futureFooter {
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            font-size: 2rem;
+        }
+
+        .directionFooter {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 1rem;
+        }
+    }
+
+    .footer {
+        height: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .futureFooter {
+            font-size: 1rem;
+        }
+
+        .directionFooter {
+            font-size: 0.7rem;
+        }
+    }
+
+    .contenedorPadreHair {
+        flex-direction: column;
+        height: auto;
+
+        .alineacion {
+            text-align: center;
+            margin-bottom: 3rem;
+            margin-top: 3rem;
+        }
+
+        .contenedorHijoHairUno {
+            flex: 100%;
+
+            .imagenUno {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+        .contenedorHijoHairDos {
+            flex: 100%;
+        }
+    }
+
+
+.contenedorPadreServicios {
+    min-height: 60vh;
+
+    .contenedorHijoServicios {
+        .titulo {
+            text-align: center;
+            color: white;
+            margin-bottom: 2rem;
+        }
+
+        .servicios {
+            color: white;
+            text-align: center;
+        }
+    }
 }
 
-/* No tuve tiemo de pasar el código a sass :(*/
-
-.contenedorHijoHairUno,
-.contenedorHijoHairDos {
-    flex: 100%;
-}
-
-.contenedorHijoHairDos {
-    margin: 50px 15px;
+.contenedorImg {
+    height: auto;
 }
 
 .contenedorPadreAbout {
     height: 60vh;
+
+    .fondoAbout {
+        form {
+            .campos {
+                width: 15rem;
+            }
+        }
+    }
 }
 
-.submitBoton {
-    margin-top: 2rem;
-    display: flex;
-    justify-self: end;
 }
-
-.emailRes {
-    font-size: 0.3rem;
-    text-align: start;
-}
-
-.contenedorImg {
-    height: 40vh;
-}
-
-.directionFooter {
-    font-size: 0.7rem;
-    /* Reducir el tamaño de fuente del título */
-}
-
-.futureFooter {
-    font-size: 1rem;
-    /* Reducir el tamaño de fuente del título */
-}
-
-.contenedorPadreServicios {
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-}
-
-
-.servicios {
-    text-align: center;
-    flex-direction: column;
-    /* Centrar el contenido horizontalmente */
-    align-items: center;
-}
-
-.contenedorPadre {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0rem;
-}
-
-.contenedorHijo {
-    padding-top: 3rem;
-}
-
-.mapaContainer {
-    display: flex;
-    justify-content: center;
-    height: auto;
-}
-
-.map {
-    width: 100%;
-    height: 100%;
-}
-
-.contenedorPadreAbout {
-    height: 450px;
-}
-
-.titulo.about {
-    font-size: 1,5rem;
-    /* Ajusta el tamaño de fuente del título */
-}
-
-.campos {
-    width: 100%;
-    /* Ajusta el ancho de los campos de entrada */
-}
-
-.textarea {
-    height: 85px;
-    /* Ajusta la altura del campo de texto */
-}
-
-.botonFormulario {
-    font-size: 0.8rem;
-
-}
-
-.button {
-    font-size: 0.8rem;
-}
-
-
-
-
