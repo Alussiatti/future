@@ -22,6 +22,7 @@
   }
 }
 .cuerpoTexto {
+  width: 100%;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.5;
@@ -371,10 +372,57 @@ main .contenedorPadreAbout .fondoAbout .about {
     height: auto;
   }
   .contenedorPadreAbout {
-    height: 60vh;
+    height: 70vh;
   }
   .contenedorPadreAbout .fondoAbout form .campos {
     width: 15rem;
+  }
+  .contenedorPadreContacto {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
+  .contenedorPadreContacto .contenedorHijoContacto {
+    padding: 2rem;
+  }
+  .contenedorPadreContacto .mapaContainer {
+    width: 100%;
+    height: 15rem;
+  }
+  .contenedorPadreContacto .mapaContainer .map {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.3rem;
+  }
+  .contenedorPadreAbout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenedorPadreAbout .fondoAbout {
+    max-height: 50vh;
+  }
+  .contenedorPadreAbout .fondoAbout form {
+    margin: 20px;
+  }
+  .contenedorPadreAbout .fondoAbout form label {
+    margin-bottom: 6px;
+  }
+  .contenedorPadreAbout .fondoAbout form .botonFormulario {
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: black;
+    border-color: white;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    color: white;
+  }
+  .contenedorPadreAbout .fondoAbout form .textarea {
+    height: 100px;
+    margin-top: 1rem;
   }
 }
 

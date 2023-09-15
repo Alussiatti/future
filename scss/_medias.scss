@@ -127,37 +127,89 @@
     }
 
 
-.contenedorPadreServicios {
-    min-height: 60vh;
+    .contenedorPadreServicios {
+        min-height: 60vh;
 
-    .contenedorHijoServicios {
-        .titulo {
-            text-align: center;
-            color: white;
-            margin-bottom: 2rem;
-        }
+        .contenedorHijoServicios {
+            .titulo {
+                text-align: center;
+                color: white;
+                margin-bottom: 2rem;
+            }
 
-        .servicios {
-            color: white;
-            text-align: center;
-        }
-    }
-}
-
-.contenedorImg {
-    height: auto;
-}
-
-.contenedorPadreAbout {
-    height: 60vh;
-
-    .fondoAbout {
-        form {
-            .campos {
-                width: 15rem;
+            .servicios {
+                color: white;
+                text-align: center;
             }
         }
     }
-}
+
+    .contenedorImg {
+        height: auto;
+    }
+
+    .contenedorPadreAbout {
+        height: 70vh;
+
+        .fondoAbout {
+            form {
+                .campos {
+                    width: 15rem;
+                }
+            }
+        }
+    }
+
+    .contenedorPadreContacto {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+
+        .contenedorHijoContacto {
+            padding: 2rem;
+        }
+
+        .mapaContainer {
+            width: 100%;
+            height: 15rem;
+
+            .map {
+                width: 100%;
+                height: 100%;
+                border-radius: 0.3rem;
+            }
+        }
+    }
+
+    .contenedorPadreAbout {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .fondoAbout {
+            max-height: 50vh;
+            form {
+               margin: 20px;
+                label {
+                    margin-bottom: 6px;
+                }
+                .botonFormulario {
+                    cursor: pointer;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 400;
+                    padding: 10px;
+                    border-radius: 4px;
+                    background-color: black;
+                    border-color: white;
+                    margin-top: 1rem;
+                    text-transform: uppercase;
+                    color: white;
+                }
+                .textarea {
+                    height: 100px;
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
 
 }
