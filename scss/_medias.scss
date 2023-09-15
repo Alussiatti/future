@@ -1,4 +1,4 @@
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 750px) {
 
     header {
         .logo {
@@ -8,9 +8,9 @@
     }
 
     main {
+
         .contenedorPadre {
             flex-direction: column;
-            width: 100%;
 
             .alineacion {
                 text-align: center;
@@ -19,9 +19,10 @@
             }
 
             .contenedorHijo {
-                flex: 100%;
+                flex: 100%; 
                 width: 100%;
             }
+            
 
         }
 
