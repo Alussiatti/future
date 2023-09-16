@@ -1,4 +1,4 @@
-@media only screen and (max-width: 750px) {
+@media (max-width: 575px) {
 
     header {
         .logo {
@@ -214,3 +214,379 @@
     }
 
 }
+
+@media (min-width: 576px) and (max-width: 767px) {
+        header {
+            .logo {
+                cursor: pointer;
+                padding: 1rem 1rem;
+            }
+        }
+    
+        main {
+    
+            .contenedorPadre {
+                flex-direction: column;
+    
+                .alineacion {
+                    text-align: center;
+                    margin-bottom: 3rem;
+                    margin-top: 3rem;
+                }
+    
+                .contenedorHijo {
+                    flex: 100%; 
+                    width: 100%;
+                }
+                
+    
+            }
+    
+            .contenedorPadreAbout {
+                height: auto;
+    
+                .fondoAbout {
+                    max-width: 800px;
+                    text-align: center;
+    
+                    .about {
+                        color: white;
+                    }
+                }
+    
+                .alineacion {
+                    margin: 3rem 2rem;
+                }
+            }
+        }
+    
+    
+        .alineacion p {
+            padding: 1rem 2rem;
+            margin: 0rem;
+        }
+    
+        .alineacion .titulo {
+            margin: 0rem 3rem;
+        }
+    
+        .button {
+            border-radius: 3px;
+            font-size: 1rem;
+            padding: 10px;
+        }
+    
+        .titulo {
+            font-size: 1.8rem;
+        }
+    
+        .cuerpoTexto {
+            font-size: 1rem;
+        }
+    
+    
+    
+        .footer {
+            text-align: center;
+            margin: 80px;
+    
+            .futureFooter {
+                text-transform: uppercase;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 800;
+                font-size: 2rem;
+            }
+    
+            .directionFooter {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 1rem;
+            }
+        }
+    
+        .footer {
+            height: 0rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+    
+            .futureFooter {
+                font-size: 1rem;
+            }
+    
+            .directionFooter {
+                font-size: 0.7rem;
+            }
+        }
+    
+        .contenedorPadreHair {
+            flex-direction: column;
+            height: 200vh;
+    
+            .alineacion {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 3rem;
+                margin-top: 3rem;
+            }
+    
+            .contenedorHijoHairUno {
+                flex: 100%;
+                
+    
+                .imagenUno {
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+    
+            .contenedorHijoHairDos {
+                flex: 100%;
+                height: 90vh;
+            }
+        }
+    
+    
+        .contenedorPadreServicios {
+            min-height: 60vh;
+    
+            .contenedorHijoServicios {
+                .titulo {
+                    text-align: center;
+                    color: white;
+                    margin-bottom: 2rem;
+                }
+    
+                .servicios {
+                    color: white;
+                    text-align: center;
+                }
+            }
+        }
+    
+        .contenedorImg {
+            height: auto;
+        }
+
+        .img {
+            height: 60vh;
+        }
+    
+        .contenedorPadreAbout {
+            height: 80vh;
+    
+            .fondoAbout {
+                form {
+                    .campos {
+                        width: 15rem;
+                    }
+                }
+            }
+        }
+    
+        .contenedorPadreContacto {
+            display: flex;
+            flex-direction: column;
+            margin: 2rem;
+    
+            .contenedorHijoContacto {
+                padding: 2rem;
+            }
+    
+            .mapaContainer {
+                width: 100%;
+                height: 15rem;
+    
+                .map {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 0.3rem;
+                }
+            }
+        }
+    
+        .contenedorPadreAbout {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .fondoAbout {
+                max-height: 50vh;
+                form {
+                   margin: 20px;
+                    label {
+                        margin-bottom: 6px;
+                    }
+                    .botonFormulario {
+                        cursor: pointer;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 400;
+                        padding: 10px;
+                        border-radius: 4px;
+                        background-color: black;
+                        border-color: white;
+                        margin-top: 1rem;
+                        text-transform: uppercase;
+                        color: white;
+                    }
+                    .textarea {
+                        height: 100px;
+                        margin-top: 1rem;
+                    }
+                }
+            }
+        }
+    
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        header {
+            .logo {
+                cursor: pointer;
+                padding: 1rem 1rem;
+            }
+        }
+    
+        main {
+    
+    
+            .contenedorPadreAbout {
+                height: 80vh;
+    
+                .fondoAbout {
+                    max-width: 800px;
+                    text-align: center;
+    
+                    .about {
+                        color: white;
+                    }
+                }
+    
+                .alineacion {
+                    margin: 3rem 2rem;
+                }
+            }
+        }
+    
+    
+        .alineacion p {
+            padding: 1rem 2rem;
+            margin: 0rem;
+        }
+    
+        .alineacion .titulo {
+            margin: 0rem 3rem;
+        }
+    
+        .button {
+            border-radius: 3px;
+            font-size: 1rem;
+            padding: 10px;
+        }
+    
+        .titulo {
+            font-size: 1.8rem;
+        }
+    
+        .cuerpoTexto {
+            font-size: 1rem;
+        }
+    
+    
+    
+
+
+    
+    
+        .contenedorPadreServicios {
+            min-height: 60vh;
+    
+            .contenedorHijoServicios {
+                .titulo {
+                    text-align: center;
+                    color: white;
+                    margin-bottom: 2rem;
+                }
+    
+                .servicios {
+                    color: white;
+                    text-align: center;
+                }
+            }
+        }
+    
+        .contenedorImg {
+            height: auto;
+        }
+
+        .img {
+            height: 60vh;
+        }
+    
+        .contenedorPadreAbout {
+            height: 80vh;
+    
+            .fondoAbout {
+                form {
+                    .campos {
+                        width: 15rem;
+                    }
+                }
+            }
+        }
+    
+        .contenedorPadreContacto {
+            display: flex;
+            flex-direction: column;
+            margin: 2rem;
+    
+            .contenedorHijoContacto {
+                padding: 2rem;
+            }
+    
+            .mapaContainer {
+                width: 100%;
+                height: 15rem;
+    
+                .map {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 0.3rem;
+                }
+            }
+        }
+    
+        .contenedorPadreAbout {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .fondoAbout {
+                max-height: 50vh;
+                form {
+                   margin: 20px;
+                    label {
+                        margin-bottom: 6px;
+                    }
+                    .botonFormulario {
+                        cursor: pointer;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 400;
+                        padding: 10px;
+                        border-radius: 4px;
+                        background-color: black;
+                        border-color: white;
+                        margin-top: 1rem;
+                        text-transform: uppercase;
+                        color: white;
+                    }
+                    .textarea {
+                        height: 100px;
+                        margin-top: 1rem;
+                    }
+                }
+            }
+        }
+    
+    }
